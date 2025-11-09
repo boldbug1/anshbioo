@@ -34,7 +34,7 @@ export default function Index() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center py-12 px-4 md:px-8 lg:px-16">
         <div className="w-full max-w-[1920px] mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4 items-center lg:items-stretch">
             {/* Left Content */}
             <div className="order-2 lg:order-1 space-y-6 lg:space-y-8">
               {/* Greeting Text */}
@@ -59,8 +59,8 @@ export default function Index() {
             </div>
 
             {/* Right Image */}
-            <div className="order-1 lg:order-2 flex justify-center lg:justify-end lg:-mr-12 xl:-mr-16 2xl:-mr-20">
-              <div className="w-full max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-3xl xl:max-w-5xl 2xl:max-w-6xl">
+            <div className="order-1 lg:order-2 flex justify-center lg:justify-end lg:-mr-12 xl:-mr-16 2xl:-mr-20 lg:h-screen lg:-my-12">
+              <div className="w-full max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-3xl xl:max-w-5xl 2xl:max-w-6xl lg:flex lg:items-center">
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/8a952e5f8e7f78af49765d3578f3e190f7d82d6d?width=5340"
                   alt="Ansh Tiwari"
