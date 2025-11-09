@@ -39,18 +39,18 @@ export default function Index() {
               {/* Left Content */}
               <div className="order-2 lg:order-1 space-y-6 lg:space-y-8 pr-0 lg:pr-12">
                 {/* Greeting Text */}
-                <div className="space-y-2">
-                  <h1 className="font-sf-pro font-medium text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-black tracking-tight leading-tight">
+                <div className="space-y-0">
+                  <h1 className="font-sf-pro font-medium text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-black tracking-tight leading-tight">
                     hi, my name is
                   </h1>
-                  <h2 className="font-sf-pro font-bold text-6xl sm:text-8xl md:text-9xl lg:text-[200px] xl:text-[280px] 2xl:text-[300px] text-ansh-blue tracking-tight leading-none">
+                  <h2 className="font-sf-pro font-bold text-5xl sm:text-6xl md:text-7xl lg:text-[120px] xl:text-[160px] 2xl:text-[180px] text-ansh-blue tracking-tight leading-none">
                     ANSH
                   </h2>
                 </div>
 
                 {/* Description */}
                 <div id="about" className="max-w-2xl">
-                  <p className="font-sf-pro text-base sm:text-lg md:text-xl text-description leading-relaxed">
+                  <p className="font-sf-pro text-sm sm:text-sm md:text-base text-description leading-relaxed">
                     Ansh Tiwari, a Class 10 student under BSEB, committed to academic excellence.
                     Preparing diligently for board exams with focus and discipline.
                     Passionate about cricket and curious by nature.
@@ -60,7 +60,7 @@ export default function Index() {
               </div>
 
               {/* Right Image - Oversized */}
-              <div className="order-1 lg:order-2 hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 -mr-32 lg:-mr-40 xl:-mr-56 2xl:-mr-72 h-[140vh] lg:w-[65vw] xl:w-[70vw] 2xl:w-[75vw] max-w-none">
+              <div className="order-1 lg:order-2 hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 -mr-20 lg:-mr-24 xl:-mr-32 2xl:-mr-40 h-[130vh] lg:w-[60vw] xl:w-[65vw] 2xl:w-[70vw] max-w-none">
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/8a952e5f8e7f78af49765d3578f3e190f7d82d6d?width=5340"
                   alt="Ansh Tiwari"
