@@ -57,6 +57,14 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "ansh-blue": "hsl(var(--ansh-blue))",
+        "description": "hsl(var(--description-text))",
+        "button-primary": "hsl(var(--button-primary))",
+        "button-bg": "hsl(var(--button-bg))",
+      },
+      fontFamily: {
+        'sf-pro': ['-apple-system', 'BlinkMacSystemFont', 'SF Pro', 'system-ui', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
