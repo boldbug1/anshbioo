@@ -60,7 +60,7 @@ export default function Index() {
               </div>
 
               {/* Right Image - Oversized */}
-              <div className="order-1 lg:order-2 hidden lg:block absolute left-1/3 top-1/2 -translate-y-1/2 h-[130vh] lg:w-[60vw] xl:w-[65vw] 2xl:w-[70vw] max-w-none">
+              <div className="order-1 lg:order-2 hidden lg:block absolute left-1/4 top-1/2 -translate-y-1/2 h-[130vh] lg:w-[60vw] xl:w-[65vw] 2xl:w-[70vw] max-w-none">
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/8a952e5f8e7f78af49765d3578f3e190f7d82d6d?width=5340"
                   alt="Ansh Tiwari"
