@@ -32,40 +32,51 @@ export default function Index() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center py-12 px-4 md:px-8 lg:px-16">
-        <div className="w-full max-w-[1920px] mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4 items-center lg:items-stretch">
-            {/* Left Content */}
-            <div className="order-2 lg:order-1 space-y-6 lg:space-y-8">
-              {/* Greeting Text */}
-              <div className="space-y-2">
-                <h1 className="font-sf-pro font-medium text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-black tracking-tight leading-tight">
-                  hi, my name is
-                </h1>
-                <h2 className="font-sf-pro font-bold text-6xl sm:text-8xl md:text-9xl lg:text-[200px] xl:text-[280px] 2xl:text-[300px] text-ansh-blue tracking-tight leading-none">
-                  ANSH
-                </h2>
+      <section className="relative overflow-hidden">
+        <div className="min-h-screen flex items-center py-12 px-4 md:px-8 lg:px-16 relative z-10">
+          <div className="w-full max-w-[1920px] mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 items-center">
+              {/* Left Content */}
+              <div className="order-2 lg:order-1 space-y-6 lg:space-y-8 pr-0 lg:pr-12">
+                {/* Greeting Text */}
+                <div className="space-y-2">
+                  <h1 className="font-sf-pro font-medium text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-black tracking-tight leading-tight">
+                    hi, my name is
+                  </h1>
+                  <h2 className="font-sf-pro font-bold text-6xl sm:text-8xl md:text-9xl lg:text-[200px] xl:text-[280px] 2xl:text-[300px] text-ansh-blue tracking-tight leading-none">
+                    ANSH
+                  </h2>
+                </div>
+
+                {/* Description */}
+                <div id="about" className="max-w-2xl">
+                  <p className="font-sf-pro text-base sm:text-lg md:text-xl text-description leading-relaxed">
+                    Ansh Tiwari, a Class 10 student under BSEB, committed to academic excellence.
+                    Preparing diligently for board exams with focus and discipline.
+                    Passionate about cricket and curious by nature.
+                    Proud Brahman with strong roots and forward-looking ambition.
+                  </p>
+                </div>
               </div>
 
-              {/* Description */}
-              <div id="about" className="max-w-2xl">
-                <p className="font-sf-pro text-base sm:text-lg md:text-xl text-description leading-relaxed">
-                  Ansh Tiwari, a Class 10 student under BSEB, committed to academic excellence.
-                  Preparing diligently for board exams with focus and discipline.
-                  Passionate about cricket and curious by nature.
-                  Proud Brahman with strong roots and forward-looking ambition.
-                </p>
-              </div>
-            </div>
-
-            {/* Right Image */}
-            <div className="order-1 lg:order-2 flex justify-center lg:justify-end lg:-mr-12 xl:-mr-16 2xl:-mr-20 lg:h-screen lg:-my-12">
-              <div className="w-full max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-3xl xl:max-w-5xl 2xl:max-w-6xl lg:flex lg:items-center">
+              {/* Right Image - Oversized */}
+              <div className="order-1 lg:order-2 hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 -mr-40 xl:-mr-48 2xl:-mr-64 h-[120vh] w-[70vw] max-w-none">
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/8a952e5f8e7f78af49765d3578f3e190f7d82d6d?width=5340"
                   alt="Ansh Tiwari"
-                  className="w-full h-auto object-cover"
+                  className="w-full h-full object-cover"
                 />
+              </div>
+
+              {/* Mobile Image */}
+              <div className="order-1 lg:hidden flex justify-center mt-8">
+                <div className="w-full max-w-sm">
+                  <img
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/8a952e5f8e7f78af49765d3578f3e190f7d82d6d?width=5340"
+                    alt="Ansh Tiwari"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
               </div>
             </div>
           </div>
