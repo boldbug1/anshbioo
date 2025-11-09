@@ -39,11 +39,10 @@ export default function Index() {
             <div className="order-2 lg:order-1 space-y-6 lg:space-y-8">
               {/* Greeting Text */}
               <div className="space-y-2">
-                <h1 className="font-sf-pro font-medium text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-black tracking-tight leading-tight">
-                  <span className="block">hi,</span>
-                  <span className="block">my name is</span>
+                <h1 className="font-sf-pro font-medium text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-black tracking-tight leading-tight">
+                  hi, my name is
                 </h1>
-                <h2 className="font-sf-pro font-bold text-6xl sm:text-8xl md:text-9xl lg:text-[180px] xl:text-[240px] 2xl:text-[300px] text-ansh-blue tracking-tight leading-none">
+                <h2 className="font-sf-pro font-bold text-6xl sm:text-8xl md:text-9xl lg:text-[200px] xl:text-[280px] 2xl:text-[300px] text-ansh-blue tracking-tight leading-none">
                   ANSH
                 </h2>
               </div>
@@ -60,12 +59,12 @@ export default function Index() {
             </div>
 
             {/* Right Image */}
-            <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
-              <div className="w-full max-w-md lg:max-w-lg xl:max-w-xl">
+            <div className="order-1 lg:order-2 flex justify-center lg:justify-end -mr-8 lg:mr-0">
+              <div className="w-full max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-3xl xl:max-w-4xl">
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/8a952e5f8e7f78af49765d3578f3e190f7d82d6d?width=5340"
                   alt="Ansh Tiwari"
-                  className="w-full h-auto object-cover rounded-lg"
+                  className="w-full h-auto object-cover"
                 />
               </div>
             </div>
