@@ -1,7 +1,7 @@
 export default function Index() {
   const scrollToAbout = () => {
-    const aboutSection = document.getElementById('about');
-    aboutSection?.scrollIntoView({ behavior: 'smooth' });
+    const aboutSection = document.getElementById("about");
+    aboutSection?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -51,10 +51,11 @@ export default function Index() {
                 {/* Description */}
                 <div id="about" className="max-w-2xl">
                   <p className="font-sf-pro text-sm sm:text-sm md:text-base text-description leading-relaxed">
-                    Ansh Tiwari, a Class 10 student under BSEB, committed to academic excellence.
-                    Preparing diligently for board exams with focus and discipline.
-                    Passionate about cricket and curious by nature.
-                    Proud Brahman with strong roots and forward-looking ambition.
+                    Ansh Tiwari, a Class 10 student under BSEB, committed to
+                    academic excellence. Preparing diligently for board exams
+                    with focus and discipline. Passionate about cricket and
+                    curious by nature. Proud Brahman with strong roots and
+                    forward-looking ambition.
                   </p>
                 </div>
               </div>
