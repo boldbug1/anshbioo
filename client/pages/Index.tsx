@@ -59,8 +59,8 @@ export default function Index() {
             </div>
 
             {/* Right Image */}
-            <div className="order-1 lg:order-2 flex justify-center lg:justify-end -mr-8 lg:mr-0">
-              <div className="w-full max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-3xl xl:max-w-4xl">
+            <div className="order-1 lg:order-2 flex justify-center lg:justify-end lg:-mr-12 xl:-mr-16 2xl:-mr-20">
+              <div className="w-full max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-3xl xl:max-w-5xl 2xl:max-w-6xl">
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/8a952e5f8e7f78af49765d3578f3e190f7d82d6d?width=5340"
                   alt="Ansh Tiwari"
